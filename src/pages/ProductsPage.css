@@ -1,0 +1,33 @@
+
+.home {
+  padding-bottom: 30px;
+}
+.filter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-block: 10px;
+}
+
+.buttoncategory {
+  padding: 6px;
+  margin: 0 7px;
+  font-size: 1.1rem;
+  letter-spacing: 0.5px;
+  background-color: transparent;
+  border: 1px solid #bbbbbb;
+  border-radius: 9px;
+}
+
+.chosen {
+  background-color: #BBBBBB;
+  font-weight: 600;
+  color: white;
+}
+
+.homeItems {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+  padding-top: 20px;
+}

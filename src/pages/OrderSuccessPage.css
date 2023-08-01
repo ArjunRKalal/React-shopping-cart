@@ -1,0 +1,9 @@
+.button-shopping {
+    border: none;
+    background-color: transparent;
+    padding: 6px 12px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    background-color: #5bb166;
+    color: white;
+  }

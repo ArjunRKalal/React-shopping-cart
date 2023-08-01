@@ -1,0 +1,74 @@
+.Item {
+    width: 100%;
+    max-width: 340px;
+    margin: 0 auto;
+  }
+  
+  .item-thumbnail {
+    width: 100%;
+    height: 450px;
+    display: grid;
+    place-content: center;
+    background-color: transparent;
+    border-radius: 9px;
+    margin-bottom: 5px;
+    overflow: hidden;
+    cursor: pointer;
+  }
+  
+  .body h2 {
+    font-size: 1.25rem;
+    margin-bottom: 10px;
+    font-weight: 600;
+    cursor: pointer;
+  }
+  
+  .price {
+    display: block;
+    font-size: 1.2rem;
+    padding-block: 5px;
+  }
+  
+  .category {
+    display: block;
+    font-size: 1.2rem;
+    padding-block: 5px;
+    text-transform: capitalize;
+  }
+  
+  .footer {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-block: 5px;
+  }
+  
+  .rating {
+    display: flex;
+    align-items: center;
+    padding-block: 5px;
+  }
+  .grade {
+    font-size: 1.2rem;
+    margin-right: 5px;
+  }
+  .ratinglogo {
+    width: 20px;
+  }
+  
+  .buttonAddToCart {
+    border: none;
+    background-color: transparent;
+    padding: 6px 12px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    background-color: #5bb166;
+    color: white;
+  }
+
+.added {
+    color: black !important;
+    border: 2px solid #5BB166 !important;
+    background-color: transparent !important;
+}
